@@ -1,0 +1,296 @@
+{
+  "id": "6d562698-7314-453a-ae0e-4c96dbfa3535",
+  "version": "2.0",
+  "name": "flights-from-chicago-to-san-francisco-search",
+  "url": "https://www.united.com",
+  "tests": [{
+    "id": "ae90273a-5e6b-4102-a729-e34d905fe647",
+    "name": "Search",
+    "commands": [{
+      "id": "0ffe74b7-e6bd-45e5-93d2-7b116b71e542",
+      "comment": "",
+      "command": "open",
+      "target": "/en-us/flights-from-chicago-to-san-francisco",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58345eda-5680-43ee-b0ed-47e14ba7e7ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "779cd5da-e7ca-45d8-a0f7-09afd894eb5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) > .flex:nth-child(1) > .flex > .flex > .flex:nth-child(1) > .flex > .fill-current",
+      "targets": [
+        ["css=.flex:nth-child(1) > .flex:nth-child(1) > .flex > .flex > .flex:nth-child(1) > .flex > .fill-current", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/i", "xpath:position"],
+        ["xpath=//i[contains(.,'expand_more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c74ec6-6032-4e46-ac51-81efb3ba40c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1oaa0sd > .w-full",
+      "targets": [
+        ["css=.css-1oaa0sd > .w-full", "css:finder"],
+        ["xpath=//li[@id='headlessui-listbox-option-40']/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'One-way')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de5342a9-4eb9-4407-9162-a5588e918ba0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#headlessui-popover-button-3 > .css-0",
+      "targets": [
+        ["css=#headlessui-popover-button-3 > .css-0", "css:finder"],
+        ["xpath=//button[@id='headlessui-popover-button-3']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 Passenger, Economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4991543-2d00-412a-a14a-942f8faada91",
+      "comment": "",
+      "command": "click",
+      "target": "id=headlessui-listbox-button-43",
+      "targets": [
+        ["id=headlessui-listbox-button-43", "id"],
+        ["css=#headlessui-listbox-button-43", "css:finder"],
+        ["xpath=//button[@id='headlessui-listbox-button-43']", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-5']/div/div/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "403da5aa-3c45-4ec2-8409-ea70c8e1a70b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=headlessui-listbox-button-43",
+      "targets": [
+        ["id=headlessui-listbox-button-43", "id"],
+        ["css=#headlessui-listbox-button-43", "css:finder"],
+        ["xpath=//button[@id='headlessui-listbox-button-43']", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-5']/div/div/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbae8ea8-b135-4edd-9efe-f2d530f1d8f7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=headlessui-listbox-button-43",
+      "targets": [
+        ["id=headlessui-listbox-button-43", "id"],
+        ["css=#headlessui-listbox-button-43", "css:finder"],
+        ["xpath=//button[@id='headlessui-listbox-button-43']", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-5']/div/div/div/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb14de8-7550-4b22-b7b9-53e7e1854940",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1oaa0sd > .w-full",
+      "targets": [
+        ["css=.css-1oaa0sd > .w-full", "css:finder"],
+        ["xpath=//li[@id='headlessui-listbox-option-46']/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Premium economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b7befa-87ff-4537-acff-de6eae8d265c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#age1 > .cursor-pointer",
+      "targets": [
+        ["css=#age1 > .cursor-pointer", "css:finder"],
+        ["xpath=(//button[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='age1']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0e6dc5-f47c-426e-926a-6d36080abaae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1p4sgem",
+      "targets": [
+        ["css=.css-1p4sgem", "css:finder"],
+        ["xpath=(//button[@id=''])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-5']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9bc92cf-6e59-44e2-bcf9-16b8d772c894",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(3) .flex:nth-child(1) > .flex > .fill-current",
+      "targets": [
+        ["css=.flex:nth-child(3) .flex:nth-child(1) > .flex > .fill-current", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div[3]/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b309ec4c-1ce4-4434-88db-c501b1978a9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1p4sgem",
+      "targets": [
+        ["css=.css-1p4sgem", "css:finder"],
+        ["xpath=//button[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-10']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "618c0b41-3991-4d4b-b872-00968dd29cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(4) > .flex > .flex > .flex .fill-current",
+      "targets": [
+        ["css=.flex:nth-child(4) > .flex > .flex > .flex .fill-current", "css:finder"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div[4]/div/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c43e1280-c3e6-4e51-9d69-8d61f143f39c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1oaa0sd > .w-full",
+      "targets": [
+        ["css=.css-1oaa0sd > .w-full", "css:finder"],
+        ["xpath=//li[@id='headlessui-listbox-option-52']/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Book with miles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7dd869-5ea0-480b-bd42-7861a5b14e11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1p8frq8:nth-child(2)",
+      "targets": [
+        ["css=.css-1p8frq8:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='headlessui-popover-button-21']/div/div/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/i", "xpath:position"],
+        ["xpath=//i[contains(.,'today')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df53951b-4a2f-4aea-ad33-0b13b2cdae49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) > .flex > .flex > .block:nth-child(12)",
+      "targets": [
+        ["css=.flex:nth-child(1) > .flex > .flex > .block:nth-child(12)", "css:finder"],
+        ["xpath=(//button[@id=''])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-23']/div/div[2]/div[3]/div/div[2]/div/button[12]", "xpath:idRelative"],
+        ["xpath=//button[12]", "xpath:position"],
+        ["xpath=//button[contains(.,'11')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccff047b-7bc5-44ed-8e08-de4d3ba56779",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1p4sgem",
+      "targets": [
+        ["css=.css-1p4sgem", "css:finder"],
+        ["xpath=(//button[@id=''])[77]", "xpath:attributes"],
+        ["xpath=//div[@id='headlessui-popover-panel-23']/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b52572c-d2c6-40e7-9f16-0d0106145669",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-fk998c",
+      "targets": [
+        ["css=.css-fk998c", "css:finder"],
+        ["xpath=(//button[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7749397-9141-47ca-9c5d-d5cdbc9628a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[3]/div[2]/div/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cabd725-bf12-4ba3-8a57-7586034ee8ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[3]/div[2]/div/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5d6859-0b76-4882-b303-341ce3a0976f",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div[3]/div[2]/div/div/main", "xpath:idRelative"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cae3a7ef-4d3f-4fb4-b0de-8566241e038f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.atm-l-container",
+      "targets": [
+        ["css=.atm-l-container", "css:finder"],
+        ["xpath=//main[@id='main-content']/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c5d9f57-d989-4db2-9932-5a32e6d68de6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ae90273a-5e6b-4102-a729-e34d905fe647"]
+  }],
+  "urls": ["https://www.united.com/"],
+  "plugins": []
+}
