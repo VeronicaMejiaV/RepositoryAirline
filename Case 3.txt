@@ -1,0 +1,17 @@
+GITHUB
+Link: https://github.com/VeronicaMejiaV/RepositoryAirline.git
+Repository: VeronicaMejiaV
+User: v_mejiav@hotmail.com
+Password: Ver@123@
+
+JIRA
+https://veronicam.atlassian.net/jira/projects?selectedProjectType=software
+User: vamejiav@gmail.com
+Password: Ultima123@
+
+
+
+
+
+
+
